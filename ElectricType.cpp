@@ -5,6 +5,11 @@ ElectricType::ElectricType() {
     attackDmg=15;
 }
 
+ElectricType::ElectricType(int atkDmg) {
+    hp = 100;
+    attackDmg = atkDmg;
+}
+
 int ElectricType::attack(string defType) {
     if (defType == "water") {
         return static_cast<int>(attackDmg * 1.5);  // Critical hit
