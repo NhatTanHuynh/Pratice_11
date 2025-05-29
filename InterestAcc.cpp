@@ -1,4 +1,4 @@
-#include "InterestAcc.h";
+#include "InterestAcc.h"
 
 InterestAcc::InterestAcc()
 {

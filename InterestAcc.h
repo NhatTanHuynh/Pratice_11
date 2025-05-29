@@ -2,7 +2,7 @@
 #define INTERESTACC_H
 
 using namespace std;
-#include "BaseAccount.h";
+#include "BaseAccount.h"
 
 class InterestAcc : public BaseAccount{
 private:
@@ -14,4 +14,4 @@ public:
 };
 
 
-#endif;
+#endif

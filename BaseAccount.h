@@ -4,9 +4,8 @@
 using namespace std;
 
 class BaseAccount {
-private:
-    double balance;
 public:
+    double balance;
     BaseAccount();
     void deposit (double amount);
     double getBalance();
