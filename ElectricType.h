@@ -6,7 +6,7 @@
 class ElectricType : public PocketMonster {
     ElectricType();
     ElectricType(int atkDmg);
-    int attack(string defType);
+    int attack(string defType) override;
 };
 
 #endif

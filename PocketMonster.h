@@ -9,7 +9,8 @@ public:
     int hp;
     int attackDmg;
     PocketMonster();
-    int attack(string defType);
+    virtual int attack(string defType) = 0;
+    virtual ~PocketMonster() = default;
 };
 
 #endif
